@@ -7,3 +7,12 @@ function totalFine(fare) {
     return `Invalid`;
   }
 }
+
+function onlyCharacter(str) {
+  // You have to write your code here
+  if (typeof str === "string") {
+    return str.replaceAll(" ", "").toUpperCase();
+  } else {
+    return `Invalid`;
+  }
+}
